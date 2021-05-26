@@ -1,5 +1,7 @@
 import Link from "next/link";
+// import Post from "./post";
 
+//local function component
 const Post = (props) => (
   <li>
     <Link href={`/post?title=${props.title}`}>
